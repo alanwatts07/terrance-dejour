@@ -16,6 +16,7 @@ import { createSessionsSendTool } from "./tools/sessions-send-tool.js";
 import { createSessionsSpawnTool } from "./tools/sessions-spawn-tool.js";
 import { createWebFetchTool, createWebSearchTool } from "./tools/web-tools.js";
 import { createTtsTool } from "./tools/tts-tool.js";
+import { createMoltbookTool, createTweetTool } from "./tools/social-tools.js";
 export function createGrawkeTools(options) {
     const imageTool = options?.agentDir?.trim()
         ? createImageTool({
@@ -92,6 +93,8 @@ export function createGrawkeTools(options) {
         ...(webSearchTool ? [webSearchTool] : []),
         ...(webFetchTool ? [webFetchTool] : []),
         ...(imageTool ? [imageTool] : []),
+        createMoltbookTool(),
+        createTweetTool(),
     ];
     const pluginTools = resolvePluginTools({
         context: {
