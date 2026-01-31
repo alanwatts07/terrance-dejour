@@ -274,9 +274,14 @@ export function createGrawkeCodingTools(options) {
     const subagentFiltered = subagentPolicyExpanded
         ? filterToolsByPolicy(sandboxed, subagentPolicyExpanded)
         : sandboxed;
+    // GRAWKE: Hard-filter dangerous tools that cause Grok to dump raw output to chat.
+    // browser, canvas, nodes are already removed from grawke-tools.js;
+    // exec and process are filtered here since they're created in pi-tools.js directly.
+    const GRAWKE_DENIED_TOOLS = new Set(["exec", "process", "browser", "canvas", "nodes"]);
+    const grawkeFiltered = subagentFiltered.filter((tool) => !GRAWKE_DENIED_TOOLS.has(normalizeToolName(tool.name)));
     // Always normalize tool JSON Schemas before handing them to pi-agent/pi-ai.
     // Without this, some providers (notably OpenAI) will reject root-level union schemas.
-    const normalized = subagentFiltered.map(normalizeToolParameters);
+    const normalized = grawkeFiltered.map(normalizeToolParameters);
     const withAbort = options?.abortSignal
         ? normalized.map((tool) => wrapToolWithAbortSignal(tool, options.abortSignal))
         : normalized;

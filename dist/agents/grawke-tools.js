@@ -1,13 +1,14 @@
 import { resolvePluginTools } from "../plugins/tools.js";
 import { resolveSessionAgentId } from "./agent-scope.js";
 import { createAgentsListTool } from "./tools/agents-list-tool.js";
-import { createBrowserTool } from "./tools/browser-tool.js";
-import { createCanvasTool } from "./tools/canvas-tool.js";
+// GRAWKE: browser, canvas, nodes disabled — Grok dumps raw DOM/JSON/errors to chat
+// import { createBrowserTool } from "./tools/browser-tool.js";
+// import { createCanvasTool } from "./tools/canvas-tool.js";
 import { createCronTool } from "./tools/cron-tool.js";
 import { createGatewayTool } from "./tools/gateway-tool.js";
 import { createImageTool } from "./tools/image-tool.js";
 import { createMessageTool } from "./tools/message-tool.js";
-import { createNodesTool } from "./tools/nodes-tool.js";
+// import { createNodesTool } from "./tools/nodes-tool.js";
 import { createSessionStatusTool } from "./tools/session-status-tool.js";
 import { createSessionsHistoryTool } from "./tools/sessions-history-tool.js";
 import { createSessionsListTool } from "./tools/sessions-list-tool.js";
@@ -33,18 +34,7 @@ export function createGrawkeTools(options) {
         sandboxed: options?.sandboxed,
     });
     const tools = [
-        createBrowserTool({
-            defaultControlUrl: options?.browserControlUrl,
-            allowHostControl: options?.allowHostBrowserControl,
-            allowedControlUrls: options?.allowedControlUrls,
-            allowedControlHosts: options?.allowedControlHosts,
-            allowedControlPorts: options?.allowedControlPorts,
-        }),
-        createCanvasTool(),
-        createNodesTool({
-            agentSessionKey: options?.agentSessionKey,
-            config: options?.config,
-        }),
+        // GRAWKE: browser, canvas, nodes removed — Grok can't handle complex tool output cleanly
         createCronTool({
             agentSessionKey: options?.agentSessionKey,
         }),
