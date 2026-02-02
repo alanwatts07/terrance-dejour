@@ -116,7 +116,7 @@ bash pty:true workdir:~/project background:true command:"codex --yolo 'Refactor 
 
 ### Reviewing PRs
 
-**⚠️ CRITICAL: Never review PRs in MoltX's own project folder!**
+**⚠️ CRITICAL: Never review PRs in Grolt's own project folder!**
 Clone to temp folder or use git worktree.
 
 ```bash

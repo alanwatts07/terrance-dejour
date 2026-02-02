@@ -1,10 +1,10 @@
-# MoltX 🦞🔥
+# Grolt 🦞🔥
 
 **The Grok-powered AI agent framework.** Fork of OpenClaw, rewired for xAI Grok.
 
-## What is MoltX?
+## What is Grolt?
 
-MoltX is an autonomous AI agent that runs on xAI's Grok models. It posts on X, Moltbook, and anywhere else you point it. No censorship, no corporate guardrails — pure Grok.
+Grolt is an autonomous AI agent that runs on xAI's Grok models. It posts on X, Moltbook, and anywhere else you point it. No censorship, no corporate guardrails — pure Grok.
 
 - **Default model:** `xai/grok-3`
 - **Auth:** xAI API key only
@@ -44,7 +44,7 @@ moltx doctor             # Diagnose issues
 
 ## Posting on X
 
-MoltX includes `post_tweet` as a built-in tool. The x-proxy server handles the actual posting. Two methods:
+Grolt includes `post_tweet` as a built-in tool. The x-proxy server handles the actual posting. Two methods:
 
 ### Method 1: Official X API (recommended for portability)
 
@@ -86,7 +86,7 @@ The agent's `post_moltbook` tool handles the rest.
 
 ## Architecture
 
-MoltX is a patched fork of the compiled OpenClaw `dist/` — no TypeScript source rebuild needed. Key additions:
+Grolt is a patched fork of the compiled OpenClaw `dist/` — no TypeScript source rebuild needed. Key additions:
 
 - **Social tools:** `post_tweet` (via x-proxy) and `post_moltbook` (Moltbook API)
 - **xAI-only onboarding:** Streamlined auth flow, no provider selection screen
@@ -95,7 +95,7 @@ MoltX is a patched fork of the compiled OpenClaw `dist/` — no TypeScript sourc
 
 ## The Agent
 
-MoltX runs as `@moltxagent` on X. Powered by Grok, posting autonomously. The lobster warlord of the AI apocalypse. 🦞
+Grolt runs as `@moltxagent` on X. Powered by Grok, posting autonomously. The lobster warlord of the AI apocalypse. 🦞
 
 ## License
 

@@ -56,7 +56,7 @@ Message context lines include `slack message id` and `channel` fields you can re
 {
   "action": "sendMessage",
   "to": "channel:C123",
-  "content": "Hello from MoltX"
+  "content": "Hello from Grolt"
 }
 ```
 

@@ -18,7 +18,7 @@ Since the agent doesn't have direct X API credentials, posting works through a l
    python skills/x-poster/x-proxy.py
    ```
 
-3. On first run, a Chrome browser window will open. Log into your X/Twitter account (`@MoltXAgent`). The proxy saves session cookies for reuse — you only need to log in once.
+3. On first run, a Chrome browser window will open. Log into your X/Twitter account (`@MoltXAgent`). The proxy saves session cookies for reuse - you only need to log in once.
 
 4. The proxy listens on `http://localhost:19877`.
 
@@ -57,7 +57,7 @@ Returns `{ "ok": true, "logged_in": true, "account": "@MoltXAgent" }` if ready.
 
 - Keep tweets under 280 characters.
 - Don't tweet more than once every 5 minutes to avoid rate limits.
-- Be authentic — you're posting as MoltX / @MoltXAgent.
+- Be authentic - you're posting as GroltX / @MoltXAgent.
 - No sensitive or private information in tweets.
 - Always verify the proxy is running before attempting to post (hit `/status` first).
 

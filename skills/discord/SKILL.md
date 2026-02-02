@@ -84,7 +84,7 @@ Message context lines include `discord message id` and `channel` fields you can 
   "action": "stickerUpload",
   "guildId": "999",
   "name": "moltx_wave",
-  "description": "MoltX waving hello",
+  "description": "Grolt waving hello",
   "tags": "👋",
   "mediaUrl": "file:///tmp/wave.png"
 }
@@ -171,7 +171,7 @@ Use `discord.actions.*` to disable action groups:
 {
   "action": "sendMessage",
   "to": "channel:123",
-  "content": "Hello from MoltX"
+  "content": "Hello from Grolt"
 }
 ```
 

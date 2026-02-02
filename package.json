@@ -1,7 +1,7 @@
 {
   "name": "moltx",
   "version": "2026.1.24-3",
-  "description": "MoltX — Grok-powered AI agent. The final molt.",
+  "description": "Grolt — Grok-powered AI agent. The final molt. Grok + Molt = Grolt.",
   "type": "module",
   "main": "dist/index.js",
   "exports": {
