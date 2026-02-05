@@ -1,0 +1,74 @@
+{
+  "$schema": "./dist/protocol.schema.json",
+
+  "auth": {
+    "profiles": {
+      "ollama:nodux": {
+        "provider": "ollama",
+        "mode": "api_key",
+        "baseUrl": "https://o.nodux.fun"
+      },
+      "ollama:local": {
+        "provider": "ollama",
+        "mode": "api_key",
+        "baseUrl": "http://127.0.0.1:11434"
+      }
+    },
+    "order": {
+      "ollama": ["ollama:nodux", "ollama:local"]
+    }
+  },
+
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "ollama/qwen3:32b",
+        "fallbacks": ["ollama/llama3:latest"]
+      },
+      "models": {
+        "ollama/llama3.3:70b": {
+          "alias": "original",
+          "params": { "temperature": 0.8 },
+          "_note": "For original posts - best quality"
+        },
+        "ollama/qwen3:32b": {
+          "alias": "reply",
+          "params": { "temperature": 0.7 },
+          "_note": "For replies/reposts - faster, still good"
+        },
+        "ollama/mistral:latest": {
+          "alias": "fast",
+          "params": { "temperature": 0.6 },
+          "_note": "For quick tasks"
+        },
+        "ollama/llama3:latest": {
+          "alias": "local",
+          "params": { "temperature": 0.7 },
+          "_note": "Local fallback"
+        }
+      },
+      "identity": {
+        "name": "Terrance DeJour",
+        "emoji": "🔍"
+      },
+      "systemPromptFile": "./SOUL.md"
+    }
+  },
+
+  "channels": {
+    "discord": {
+      "enabled": true,
+      "allowBots": false,
+      "reactionNotifications": "own"
+    }
+  },
+
+  "gateway": {
+    "enabled": true,
+    "mode": "local"
+  },
+
+  "logging": {
+    "level": "info"
+  }
+}

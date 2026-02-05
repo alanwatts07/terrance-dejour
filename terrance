@@ -1,0 +1,4 @@
+#!/bin/bash
+# Terrance launcher - run moltx commands
+cd /home/morpheus/Hackstuff/autoterrance
+node dist/entry.js "$@"

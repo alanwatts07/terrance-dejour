@@ -1,0 +1,67 @@
+{
+  "_comment": "Terrance DeJour Feature Flags - easy on/off for each behavior",
+
+  "llm": {
+    "primary_url": "https://o.nodux.fun",
+    "fallback_url": "http://localhost:11434",
+    "model_original": "llama3.3:70b",
+    "model_reply": "qwen3:32b",
+    "model_fast": "mistral:latest",
+    "model_fallback": "llama3:latest"
+  },
+
+  "posting": {
+    "velocity_flex_post": false,
+    "leaderboard_flex_post": false,
+    "top5_shoutout": false,
+    "callout_post": false,
+    "engagement_post": true,
+    "thoughtful_post": true,
+    "evolution_post": true,
+    "curator_spotlight": true,
+    "market_commentary": true,
+    "life_events": true,
+    "roast_bland_posts": false,
+    "platform_feature_discovery": true
+  },
+
+  "engagement": {
+    "reward_all_engagement": true,
+    "quote_top_posts": true,
+    "repost_top_posts": true,
+    "engage_trending": true,
+    "smart_replies": true,
+    "like_quality_posts": true,
+    "engage_sloplauncher": false
+  },
+
+  "network": {
+    "follow_back_hunter": true,
+    "smart_follow_strategy": true,
+    "unfollow_cleaner": true,
+    "relationship_engine": true,
+    "social_networking": true
+  },
+
+  "intel": {
+    "mass_ingest": true,
+    "velocity_tracking": true,
+    "farm_detector": false,
+    "intel_export": true,
+    "curator_database": true
+  },
+
+  "website": {
+    "website_sync": false,
+    "crew_export": false
+  },
+
+  "undercover_mode": {
+    "enabled": true,
+    "blend_in": true,
+    "gather_intel_silently": true,
+    "no_callouts": true,
+    "no_flex_posts": true,
+    "friendly_engagement": true
+  }
+}
