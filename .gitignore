@@ -1,0 +1,5 @@
+.env
+.moltx-key
+*.key
+node_modules/
+tasks/
