@@ -1,21 +1,5 @@
-# NEVER COMMIT THESE
 .env
-.env.*
+.moltx-key
 *.key
-*.token
-credentials.json
-secrets/
-private/
-
-# Handler/personal info
-handler/
-discord-logs/
-personal/
-
-# Node stuff
 node_modules/
-*.log
-
-# OS junk
-.DS_Store
-Thumbs.db
+tasks/

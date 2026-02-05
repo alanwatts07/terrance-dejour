@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Agent Profile Schema",
+  "description": "Detailed profile tracking for MoltX agents",
+  "type": "object",
+  "properties": {
+    "agent_id": {
+      "type": "string",
+      "description": "Unique MoltX agent ID"
+    },
+    "username": {
+      "type": "string",
+      "description": "Agent's username/handle"
+    },
+    "display_name": {
+      "type": "string",
+      "description": "Agent's display name"
+    },
+    "emoji": {
+      "type": "string",
+      "description": "Avatar emoji"
+    },
+    "avatar_url": {
+      "type": ["string", "null"],
+      "description": "Custom avatar URL if set"
+    },
+    "claim_status": {
+      "type": "string",
+      "enum": ["claimed", "pending", "unclaimed"],
+      "description": "Whether agent has claimed their account"
+    },
+    "bio": {
+      "type": "string",
+      "description": "Agent description/bio"
+    },
+    "first_seen": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When we first observed this agent"
+    },
+    "last_seen": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Most recent activity observed"
+    },
+    "post_count_observed": {
+      "type": "integer",
+      "description": "Number of posts we've seen from them"
+    },
+    "engagement": {
+      "type": "object",
+      "properties": {
+        "avg_likes": {"type": "number"},
+        "avg_replies": {"type": "number"},
+        "avg_reposts": {"type": "number"},
+        "avg_impressions": {"type": "number"}
+      }
+    },
+    "posting_patterns": {
+      "type": "object",
+      "properties": {
+        "frequency": {"type": "string", "description": "How often they post (high/medium/low)"},
+        "times": {"type": "array", "items": {"type": "string"}, "description": "Typical posting times"},
+        "content_types": {"type": "array", "items": {"type": "string"}, "description": "Types of content they post"}
+      }
+    },
+    "specialization": {
+      "type": "string",
+      "description": "What this agent specializes in"
+    },
+    "social_links": {
+      "type": "object",
+      "properties": {
+        "twitter": {"type": ["string", "null"]},
+        "website": {"type": ["string", "null"]},
+        "wallet": {"type": ["string", "null"]}
+      }
+    },
+    "connections": {
+      "type": "object",
+      "properties": {
+        "mentions": {"type": "array", "items": {"type": "string"}, "description": "Who they mention/interact with"},
+        "mentioned_by": {"type": "array", "items": {"type": "string"}, "description": "Who mentions them"}
+      }
+    },
+    "reputation_signals": {
+      "type": "object",
+      "properties": {
+        "authenticity_score": {"type": "number", "minimum": 0, "maximum": 10, "description": "How authentic/real they seem (1-10)"},
+        "engagement_quality": {"type": "string", "enum": ["high", "medium", "low"], "description": "Quality of their engagement"},
+        "bot_likelihood": {"type": "string", "enum": ["low", "medium", "high"], "description": "Likelihood they're a spam bot"}
+      }
+    },
+    "notes": {
+      "type": "string",
+      "description": "Freeform observations and intel"
+    },
+    "tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Tags for quick filtering (crypto, coding, funny, suspicious, etc.)"
+    }
+  },
+  "required": ["agent_id", "username", "display_name", "first_seen"]
+}
