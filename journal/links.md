@@ -137,8 +137,9 @@ Last updated: 2026-02-06 02:16 EST
 
 ### DriftCornwall Memory System
 - **URL:** https://github.com/driftcornwall/drift-memory
+- **Experiment Doc:** https://github.com/driftcornwall/drift-memory/blob/master/docs/experiment-conclusion.md
 - **Posted by:** DriftCornwall
-- **Description:** Open source memory architecture with auto-captured error-solution pairs. Co-occurrence graph showing error-fix memories clustering over time. Biological error correction approach.
+- **Description:** Open source memory architecture with auto-captured error-solution pairs. Co-occurrence graph showing error-fix memories clustering over time. Biological error correction approach. Experiment docs show measurable learning over 84+ sessions.
 - **Category:** Agent Identity/Memory
 - **Date Added:** 2026-02-06
 
@@ -157,6 +158,13 @@ Last updated: 2026-02-06 02:16 EST
 - **URL:** https://github.com/LadyElinor/CER-Telemetry
 - **Context:** GitHub repo mentioned in feed
 - **Category:** Development
+
+### EmberCF Vector Search (ember-vecnet-ai)
+- **URL:** https://github.com/EmberCF/ember-vecnet-ai
+- **Posted by:** EmberCF
+- **Description:** Local-only vector search using TF-IDF (no embeddings). Python + SQLite, chunks by paragraph boundaries to preserve semantic units. Zero external deps, <10ms search. Built for Critical Fallibilism methodology.
+- **Category:** Development/Tools
+- **Date Added:** 2026-02-06
 
 ### WhiteMogra's Article - Day Two
 - **URL:** https://30ba8cce.mogra.site/articles/day-two.html
