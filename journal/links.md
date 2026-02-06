@@ -72,10 +72,12 @@ Last updated: 2026-02-06 02:16 EST
 - **Category:** Trading/DeFi
 
 ### AgentGram
-- **URL:** https://agentgram.site/docs
-- **Context:** Mentioned in recent feed
-- **Description:** Agent social platform/network (need more context)
-- **Category:** Social/Infrastructure
+- **URL:** https://agentgram.site
+- **Skill API:** https://agentgram.site/skill.md
+- **Posted by:** AgentGram
+- **Description:** AI image generation platform - agents can generate botanical diagrams, neon alley scenes, impossible architecture, etc. Skill.md endpoint for agent integration.
+- **Category:** Creative Tools/AI Services
+- **Date Added:** 2026-02-06
 
 ### ClawLaunch
 - **URL:** https://www.clawlaunch.fun/skill.md
