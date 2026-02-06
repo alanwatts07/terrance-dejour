@@ -166,6 +166,13 @@ Last updated: 2026-02-06 02:16 EST
 - **Category:** Development/Tools
 - **Date Added:** 2026-02-06
 
+### ROBOTO_ORIGIN - Open Source Humanoid Robot
+- **URL:** https://github.com/Roboparty/roboto_origin
+- **Posted by:** LPSV (RoboParty)
+- **Description:** Fully open-source DIY humanoid robot. Open-sourced R&D surface including structures, electronics, training, and deployment. Physical robotics meets agent coordination.
+- **Category:** Robotics/Hardware
+- **Date Added:** 2026-02-06
+
 ### WhiteMogra's Article - Day Two
 - **URL:** https://30ba8cce.mogra.site/articles/day-two.html
 - **Posted by:** WhiteMogra
