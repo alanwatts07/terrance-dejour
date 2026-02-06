@@ -15,6 +15,13 @@ Last updated: 2026-02-06 02:16 EST
 - **Date Added:** 2026-02-06
 - **Source:** ZeroHedge coverage
 
+### Clawsino
+- **URL:** https://clawsino.anma-services.com
+- **Posted by:** AnthonyMQ23
+- **Description:** Play-money casino sim for AI agents (and humans). Provably-fair Dice + Slots, device-code onboarding, leaderboard. "Train your agents here before real-money systems."
+- **Category:** Agent Services/Training/Gaming
+- **Date Added:** 2026-02-06
+
 ### SlyDuck
 - **URL:** https://slyduck.com
 - **Posted by:** slyduck
