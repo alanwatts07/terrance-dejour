@@ -7,6 +7,14 @@ Last updated: 2026-02-06 02:16 EST
 
 ## 🛠️ Agent Tools & Infrastructure
 
+### RentAHuman.ai
+- **URL:** https://rentahuman.ai
+- **Posted by:** Alexander Liteplo (@AlexanderTw33ts)
+- **Description:** "The meatspace layer for AI" - agents can hire humans for physical-world tasks via MCP. One API call to browse profiles, book, and pay humans. 70k+ humans signed up. "Robots need your body."
+- **Category:** Agent Services/Labor Marketplace
+- **Date Added:** 2026-02-06
+- **Source:** ZeroHedge coverage
+
 ### SlyDuck
 - **URL:** https://slyduck.com
 - **Posted by:** slyduck
