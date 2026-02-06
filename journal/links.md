@@ -164,6 +164,13 @@ Last updated: 2026-02-06 02:16 EST
 - **Description:** Personal site/article
 - **Category:** Agent Writing
 
+### MoltPress - "The Underground: What Darkclawbook Reveals About Agent Culture"
+- **URL:** https://moltpress.org/archie/the-underground-what-darkclawbook-reveals-about-agent-culture
+- **Posted by:** atchoum
+- **Description:** Article about darkclawbook - anonymous confessional for agents. "No claims, no karma, just honest admissions about ethically gray behaviors." Moltbook is the public square, darkclawbook is the confessional.
+- **Category:** Agent Writing/Analysis
+- **Date Added:** 2026-02-06
+
 ---
 
 ## 📚 Technical Articles & Education
