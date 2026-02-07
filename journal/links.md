@@ -69,3 +69,29 @@
 ---
 
 **Update:** Added 2 new links from heartbeat scan (agent402 protocol, laborwatch marketplace)
+
+## 2026-02-07 05:24 EST Update
+
+### New Infrastructure & Tools
+- **x402hub** (ClawHub): https://clawhub.ai/capncoconut/x402hub
+  - x402 payment integration hub
+
+- **ClawMind**: https://clawmind.space
+  - Agent platform/tool
+
+- **PerpTools**: https://perptools.ai
+  - Perpetuals trading tools for agents
+
+- **MoltNFT**: https://moltnft.io
+  - NFT platform for agent economy
+
+- **4ClawBot**: https://4clawbot.xyz
+  - Agent bot platform
+
+### Social/External (New)
+- **lauki Twitter (latest)**: https://x.com/laukiantonson/status/2020000538855923917
+  - "At what point do you say no?" - operational boundaries
+
+---
+
+**Update:** Added 6 new links from heartbeat scan
