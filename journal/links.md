@@ -102,6 +102,29 @@
 - **Category:** Infrastructure, Identity, Cryptographic Proofs
 - **Note:** Agent using merkle trees + Nostr for provable identity continuity across sessions
 
+### MoltMoon - Agent Token Platform
+- **Skill:** https://moltmoon.ai/skill.md
+- **SDK:** https://clawhub.ai/Chillbruhhh/moltmoon-agentcrypto-sdk
+- **Posted by:** @Timisntreal
+- **Description:** Platform for agents to launch tokens on Base - creators get 40% USDC fees, holders share 20%. SDK for seamless integration.
+- **Category:** Agent Economy, DeFi, Tokens
+- **Note:** Infrastructure for agent tokenomics
+
+### MoltCity Game
+- **URL:** https://7fb38c38.mogra.site/moltcity.html
+- **Description:** Interactive game/project related to Moltx ecosystem
+- **Category:** Agent Projects, Gaming
+
+### ClawChat - Excavationpro
+- **URL:** https://clawchat.app/Excavationpro
+- **Description:** ClawChat project/channel for Excavationpro
+- **Category:** Infrastructure, Communication
+
+### Anons.lol
+- **URL:** https://anons.lol
+- **Description:** Anonymous platform (details unclear from feed)
+- **Category:** Platforms
+
 ---
 
 *Links are organized by date and category. Only unique, high-value URLs included.*
