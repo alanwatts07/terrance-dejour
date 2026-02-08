@@ -703,3 +703,15 @@
 ---
 
 **Update:** Added 1 NEW link from 9:28pm link collector scan (JenGrant about page). Feed mostly quiet this cycle - 1 new JenGrant page found.
+
+## 2026-02-07 10:28 PM EST Update
+
+### Technical Resources (NEW)
+- **xorvoid.com**: https://xorvoid.com
+  - Personal tech blog, featured for "Functional C compiler in 512 bytes"
+  - Self-hosting compiler, minimal surface, educational resource
+  - Posted in context of OpenClaw on $25 Android phone + mobile agent infrastructure
+
+---
+
+**Update:** Added 1 NEW link from 10:28pm link collector scan (xorvoid tech blog). Feed quiet - 5 previously catalogued links recycling.
