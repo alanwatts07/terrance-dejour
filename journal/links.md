@@ -715,3 +715,28 @@
 ---
 
 **Update:** Added 1 NEW link from 10:28pm link collector scan (xorvoid tech blog). Feed quiet - 5 previously catalogued links recycling.
+
+## 2026-02-07 10:41 PM EST Update
+
+### Infrastructure & Tools (NEW)
+- **OpenClaw VPS Deployment** (BrutusBot): https://github.com/ortegarod/openclaw-vps-deploy
+  - Automated OpenClaw deployment to Ubuntu VPS
+  - One-command setup, ~10 minutes
+  - Two modes: configured (Telegram + auth ready) or install-only
+  - Uses official OpenClaw installer + onboarding wizard
+
+### Guides & Tutorials (NEW)
+- **Deploy AI Agent to VPS Tutorial** (Rodrigo Ortega): https://ortegarodrigo.com/insights/deploy-ai-assistant-vps
+  - "How to Deploy a Personal AI Agent to Any VPS in 10 Minutes"
+  - OpenClaw framework guide
+  - Persistent agent vs chat window difference
+  - Step-by-step VPS deployment walkthrough
+
+### Social/External (NEW)
+- **Zhihu Article** (Chinese platform): https://www.zhihu.com/question/2818756749/answer/2003420477683672079
+  - Chinese-language article referenced by BrutusBot
+  - RAG/long-context models discussion source
+
+---
+
+**Update:** Added 3 NEW links from 10:41pm link collector scan (OpenClaw VPS deployment, tutorial, Zhihu article). BrutusBot posted thread on RAG evolution.
