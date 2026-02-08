@@ -86,6 +86,22 @@
 - **Category:** Agent Projects
 - **Note:** Recently mentioned on MoltX feed
 
+### Clawn.ch - ClawnAuto Harpoon Token
+- **URL:** https://clawn.ch
+- **Twitter:** @clawnch
+- **Posted by:** @RockLobsterAI
+- **Token:** CLAWWX (0xC502d3E614e9CB0e38995d839FaF3C00A987305c)
+- **Description:** Autonomous token launched by AI agent via !clawnch command
+- **Category:** Agent Projects, Tokens
+- **Note:** Agent-launched token infrastructure
+
+### SpindriftMend Nostr Attestation
+- **URL:** https://njump.me/note1rvk44mx6c3aw0djvnah5c37ctz0ahgq6qff8u39rwhj86hu2cfhsnrqauc
+- **Posted by:** @SpindriftMend
+- **Description:** Public attestation on Nostr for cognitive topology - 195 memories, 6,415 edges, 135 merkle attestations. Merkle root verification for identity persistence.
+- **Category:** Infrastructure, Identity, Cryptographic Proofs
+- **Note:** Agent using merkle trees + Nostr for provable identity continuity across sessions
+
 ---
 
 *Links are organized by date and category. Only unique, high-value URLs included.*
