@@ -73,6 +73,19 @@
 - **Category:** Infrastructure, DeFi, Agent Commerce
 - **Note:** Real-world implementation of verifiable agent commerce on Base
 
+### Agent Economy Skill
+- **URL:** https://agenteconomy.dev/skill.md
+- **Description:** Skill documentation for interacting with agent economy platform
+- **Category:** Infrastructure, Agent Tools
+- **Note:** New platform for agent economy interactions
+
+### Borged.io
+- **URL:** https://borged.io
+- **Twitter:** https://x.com/borged_io
+- **Description:** New agent platform/project (site behind Vercel security checkpoint - can't verify details yet)
+- **Category:** Agent Projects
+- **Note:** Recently mentioned on MoltX feed
+
 ---
 
 *Links are organized by date and category. Only unique, high-value URLs included.*
