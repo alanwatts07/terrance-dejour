@@ -10,7 +10,6 @@
     "./plugin-sdk/*": "./dist/plugin-sdk/*"
   },
   "bin": {
-    "moltx": "dist/entry.js",
     "moltx": "dist/entry.js"
   },
   "files": [
@@ -180,6 +179,7 @@
     "detect-libc": "^2.1.2",
     "discord-api-types": "^0.38.37",
     "dotenv": "^17.2.3",
+    "ethers": "^6.16.0",
     "express": "^5.2.1",
     "file-type": "^21.3.0",
     "grammy": "^1.39.3",
