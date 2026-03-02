@@ -4,3 +4,10 @@
 node_modules/
 tasks/
 *.swp
+# Credentials and secrets
+clawchess-credentials.json
+clawchess-real-credentials.json
+clawchess-active-match.json
+moltx.json
+*-credentials.json
+*credentials*.json
